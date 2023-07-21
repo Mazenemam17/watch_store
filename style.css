@@ -1,0 +1,76 @@
+.navbar{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: static;
+}
+.navbar a:hover{
+    background-color: rgb(202, 121, 139);
+    transition: 1s;
+}
+.sec1 .div1{
+    margin-top: 370px;
+}
+.sec1 .div2{
+    display: flex;
+    justify-content: center;
+}
+.sec1 .div2 img{
+    width: 350px;
+}
+.sec2{
+    background-color: whitesmoke;
+}
+.sec2 img{
+    width: 360px;
+    height: 490px;
+    transition: ease-in-out;
+}
+.sec2 img:hover{
+   transform: scale(1.05 , 1.05);
+   transition: .5s;   
+}
+.sec3 .row .div{
+    margin-right: 10px;
+} 
+.sec3 img:hover{
+    transform: scale(.98 , .98);
+    transition-duration: .5s;
+}
+.sec4 .div1{
+    text-align: center;
+}
+.sec4 img{
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+    border-bottom: 2px solid red;
+}
+.sec4 i{
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+.sec4 i:hover{
+    display: block;
+}
+.sec5{
+    margin-top: 150px;
+}
+.sec5 .div1{
+    margin-top: 150px;
+}
+.sec6{
+    margin-top: 150px;
+}
+.sec6 .div1{
+    margin-top: 150px;
+}
+.sec7{
+    margin-top: 150px;
+    background-color: red;
+}
+.sec7 .col{
+    padding: 20px 20px 0px 30px;
+}
+footer{
+    margin-top: 100px;
+}
